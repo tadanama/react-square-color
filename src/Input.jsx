@@ -1,6 +1,6 @@
 import React from "react";
 
-function Input({ color, setColor }) {
+function Input({ color, setColor, whiteText, setWhiteText }) {
 	return (
 		<section>
 			<input
@@ -10,8 +10,10 @@ function Input({ color, setColor }) {
 				value={color}
 				onChange={(e) => setColor(e.target.value)}
 			/>
-            <br />
-            <button>Change text to white</button>
+			<br />
+			<button onClick={(e) => setWhiteText(!whiteText)}>
+				Change text to white
+			</button>
 		</section>
 	);
 }
