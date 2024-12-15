@@ -4,11 +4,17 @@
 	box-sizing: border-box;
 }
 
-.app{
-  border: 1px solid red;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.app {
+	border: 1px solid red;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+article .square {
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
 }
