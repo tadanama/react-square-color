@@ -18,3 +18,11 @@ article .square {
 	height: 300px;
 	border: 2px solid black;
 }
+
+#color-input {
+	width: 300px;
+	margin-top: 30px;
+  padding: 10px;
+  border: 2px solid black;
+  font-size: 19px;
+}
