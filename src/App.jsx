@@ -1,7 +1,12 @@
+import Square from "../Square";
+
 function App() {
 	return (
 		<>
-			<h1>Hi</h1>
+			<main className="app">
+				<h1>Hi</h1>
+				<Square />
+			</main>
 		</>
 	);
 }
