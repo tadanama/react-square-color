@@ -1,11 +1,15 @@
 import Square from "../Square";
+import Input from "./Input";
+import { useState } from "react";
 
 function App() {
+	const [color, setColor] = useState("");
+
 	return (
 		<>
 			<main className="app">
-				<h1>Hi</h1>
-				<Square />
+				<Square color={color} />
+				<Input color={color} setColor={setColor} />
 			</main>
 		</>
 	);
