@@ -33,3 +33,10 @@ article .square {
 	border: 2px solid black;
 	font-size: 19px;
 }
+
+section button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 18px;
+}

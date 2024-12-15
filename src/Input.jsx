@@ -10,6 +10,8 @@ function Input({ color, setColor }) {
 				value={color}
 				onChange={(e) => setColor(e.target.value)}
 			/>
+            <br />
+            <button>Change text to white</button>
 		</section>
 	);
 }
