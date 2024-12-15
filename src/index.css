@@ -19,10 +19,17 @@ article .square {
 	border: 2px solid black;
 }
 
+.square h1 {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #color-input {
 	width: 300px;
 	margin-top: 30px;
-  padding: 10px;
-  border: 2px solid black;
-  font-size: 19px;
+	padding: 10px;
+	border: 2px solid black;
+	font-size: 19px;
 }
